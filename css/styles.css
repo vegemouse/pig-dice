@@ -151,3 +151,8 @@ li {
   margin: 20px;
   border-radius: 20px;
 }
+
+#credits {
+  position: absolute;
+  bottom: 5px;
+}
