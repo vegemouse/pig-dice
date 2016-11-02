@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Pig Dice</title>
+  </head>
+  <body>
+    <div id="win">
+      <h2>You won!</h2>
+      <button class="refresh btn btn-primary">Play again!</button>
+    </div>
+    <div id="lose">
+      <h2>You lost :(</h2>
+      <button class="refresh btn btn-primary">Try again!</button>
+    </div>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Welcome to Pig-Dice!</h1>
+      </div>
+      <div class="well row" id="scores">
+        <div class="col-sm-6">
+          <h3><span id="scoreName"></span> Score:</h3>
+          <span id="playerScore">0</span>
+        </div>
+        <div class="col-sm-6">
+          <h3>Computer's Score:</h3>
+          <span id="computerScore">0</span>
+        </div>
+      </div>
+
+      <div class="well" id="output">
+        <div id="dice"></div>
+        <div id="temp-score">
+          <h4>Current turn's bank: <span id="bankNumber"></span></h4>
+        </div>
+      </div>
+      <div class="well" id="start-section">
+        <form id="start">
+          <label for="name">Enter your name:</label><br>
+          <input type="text" name="name" id="name"><br><br>
+          <button type="submit" class="btn btn-primary">Start Game</button>
+        </form>
+      </div>
+      <div class="row well" id="buttonSection">
+        <div class="col-sm-6" id="roll-section">
+          <button class="btn btn-primary" type="button" id="roll">Roll the Dice!</button>
+        </div>
+        <div class="col-sm-6" id="hold-section">
+          <button class="btn btn-danger" type="button" id="hold">Bank Score</button>
+        </div>
+      </div>
+      <div id="computer" class="well">
+        <img src="img/computer.png" width="400px" alt="The evil computer..."><br>
+        <h4><span id="comp-output">You're going down!</span></h4>
+      </div>
+    </div>
+
+  </body>
+</html>

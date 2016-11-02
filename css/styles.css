@@ -1,0 +1,83 @@
+* {
+  text-align: center;
+}
+
+body {
+  background-color: #886677;
+}
+
+.well {
+  background-color: #ccaabb;
+  border: none;
+}
+
+#scores {
+  display: none;
+}
+
+#buttonSection{
+  display: none;
+}
+
+input {
+  text-align: left;
+}
+
+#win {
+  position: absolute;
+  width: 100%;
+  background-color: #99FF99;
+  height: 100%;
+  padding-top: 30%;
+  display: none;
+  z-index: 10;
+}
+
+#lose {
+  position: absolute;
+  width: 100%;
+  background-color: #FF9999;
+  height: 100%;
+  padding-top: 30%;
+  display: none;
+  z-index: 10;
+}
+
+#lose h2, #win h2 {
+  font-size: 9em;
+}
+
+.refresh {
+  margin-top: 50px;
+}
+
+#comp-output {
+  font-family: monospace;
+}
+
+#output {
+  display: none;
+}
+
+#start {
+  padding-top: 20px;
+  font-size: 1.3em;
+}
+
+#start button {
+  width: 160px;
+  height: 40px;
+  font-size: 1.5em;
+  padding: 0;
+}
+
+.jumbotron {
+  background-color: #ddaabb;
+
+}
+
+#buttonSection button {
+  width: 80%;
+  height: 100px;
+  font-size: 2em;
+}
