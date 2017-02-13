@@ -11,7 +11,8 @@ Each turn, a player repeatedly rolls a die until either a 1 is rolled or the pla
 * If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.
 
 ## Setup Instructions
-No installation necessary. Simply clone the repository and open index.html. You can also view the page at http://vegemouse.github.io/ping-pong.
+* Clone repo
+* Open index.html
 
 ## Technologies Used
 
